@@ -1,0 +1,10 @@
+{
+	"name": "aslexpress",
+	"version": "1.0.0",
+	"main": "app.js",
+	"dependencies": {
+		"ejs": "0.8.4",
+		"express": "3.4.0",
+		"mysql": "2.0.0-alpha9"
+	}
+}
