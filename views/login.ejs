@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Chronos | Login</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="/css/styles.css">
 </head>
 <body class="siteBG">
 	<header>
@@ -16,13 +16,16 @@
 	</header>
 	<h3>Login</h3>
 	<div id="loginForm">
-		<form action="#">
+		<form action="/getUser" method="post">
 			<label for="#">Email:</label>
-			<input type="text" placeholder="johndoe@email.com">
+			<input type="text" name="email" placeholder="johndoe@email.com">
 			<label for="#">Password:</label>
-			<input type="password" placeholder="••••••">
+			<input type="password" name="password" placeholder="••••••">
 			<input type="submit" class="button" value="Login">
 		</form>
 	</div>
+	<footer>
+		<small>&copy; 2013. Created by Jeremy McGraw.</small>
+	</footer>
 </body>
 </html>

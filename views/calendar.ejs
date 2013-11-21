@@ -3,37 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Chronos | Calendar</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="/css/styles.css">
 </head>
 <body class="siteBG">
 	<header>
-		<h1>Chronos</h1>
+		<a href="/calendar"><h1>Chronos</h1></a>
 		<h2>simple and elegant calendar</h2>
 		<div class="client">
-			<a href="#">Logout</a>
+			<a href="#">User</a>
+			<a href="/logout">Logout</a>
 		</div>
 	</header>
-<!-- 	<div id="calendarContainer">
-		<div id="calendarHeader">
-			<a href="#" class="arrow">Previous</a>
-			<h3><%= results[0].monthName %></h3>
-			<a href="#" class="arrow">Next</a>
-			<ul id="dayName">
-				<li>Sun</li>
-				<li>Mon</li>
-				<li>Tue</li>
-				<li>Wed</li>
-				<li>Thu</li>
-				<li>Fri</li>
-				<li>Sat</li>
-			</ul>
-		</div> -->
 		<table id="calendarContainer">
-		<% results.forEach(function(item){ %>
-			<!-- <div class="day day-<%= item.dw %>"><%= item.d %></div> -->
-			<td class="day"><%= item.d %></td>
-		<% }); %>
+			<thead>
+					<th><%= results[0][0]['monthName'] %></th>
+			</thead>
+			<tr>
+				<td class="dayName">Sun</td>
+				<td class="dayName">Mon</td>
+				<td class="dayName">Tue</th>
+				<td class="dayName">Wed</td>
+				<td class="dayName">Thu</td>
+				<td class="dayName">Fri</td>
+				<td class="dayName">Sat</td>
+			</tr>
+			<td class="day"></td>
+			<td class="day"></td>
+			<td class="day"></td>
+			<td class="day"></td>
+			<td class="day"></td>
+			<% results[0].forEach(function(item){ %>
+			<td class="day">
+				<a href="/event/day?id=<%= item.y + '-' + item.m + '-' + item.d %>"><%= item.d %></a>
+				<div class="holiday"><%= item.holidayDescr %></div>
+				<% results[1].forEach(function(eventItem){ if(item.y + '-' + item.m + '-' + item.d === eventItem.y + '-' + eventItem.m + '-' + eventItem.d){%>
+				<div class="event"><a href="/event/event?id=<%= eventItem.id %>"><%= eventItem.text %></a></div>
+				<% }}) %>
+			</td>
+			<% }); %>
 		</table>
-<!-- 	</div> -->
+	<footer>
+		<small>&copy; 2013. Created by Jeremy McGraw.</small>
+	</footer>	
 </body>
 </html>

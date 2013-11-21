@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chronos | Calendar</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="siteBG">
+	<header>
+		<a href="/calendar"><h1>Chronos</h1></a>
+		<h2>simple and elegant calendar</h2>
+		<div class="client">
+			<a href="#">User</a>
+			<a href="/">Logout</a>
+		</div>
+	</header>
+	<div id="eventContainer">
+		<h3>Edit Event</h3>
+		<form action="/updateEvent?id=<%= results[0].id %>" method="post">
+			<label for="#">Month:</label>
+			<input type="text" name="month" value="<%= results[0].m %>" readonly>
+			<label for="#">Day:</label>
+			<input type="text" name="day" value="<%= results[0].d %>" readonly>
+			<label for="#">Year:</label>
+			<input type="text" name="year" value="<%= results[0].y %>" readonly>
+			<label for="#">Event:</label>
+			<textarea name="text" cols="30" rows="10"><%= results[0].text %></textarea>
+			<input type="submit" class="button" value="Edit">
+		</form>
+		<div id="editButtons">
+			<a href="/deleteEvent?id=<%= results[0].id %>" class="button" id="editDeleteButton">Delete</a>
+			<a href="/calendar" id="editCancelButton" class="button">Cancel</a>
+		</div>
+	</div>
+	<footer>
+		<small>&copy; 2013. Created by Jeremy McGraw.</small>
+	</footer>
+</body>
+</html>

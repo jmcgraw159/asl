@@ -1,14 +1,14 @@
 body {
-  width: 100%;
-  *zoom: 1;
+	width: 100%;
+	*zoom: 1;
 }
 body:before,
 body:after {
-  content: "";
-  display: table;
+	content: "";
+	display: table;
 }
 body:after {
-  clear: both;
+	clear: both;
 }
 /* @license
  * MyFonts Webfont Build ID 2679943, 2013-11-02T11:54:13-0400
@@ -19,10 +19,8 @@ body:after {
  * 
  * You may obtain a valid license at the URLs below.
  * 
- * 
  * Webfont: Proxima Nova Regular by Mark Simonson
  * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
- * 
  * 
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2679943
  * Licensed pageviews: 1,000,000
@@ -31,277 +29,347 @@ body:after {
  * © 2013 MyFonts Inc
 */
 @font-face {
-  font-family: 'ProximaNova-Regular';
-  src: url('../font/webfonts/28E487_5_0.eot');
-  src: url('../font/webfonts/28E487_5_0.eot?#iefix') format('embedded-opentype'), 
-  url('../font/webfonts/28E487_5_0.woff') format('woff'), 
-  url('../font/webfonts/28E487_5_0.ttf') format('truetype');
+	font-family: 'ProximaNova-Regular';
+	src: url('../font/webfonts/28E487_5_0.eot');
+	src: url('../font/webfonts/28E487_5_0.eot?#iefix') format('embedded-opentype'), 
+	url('../font/webfonts/28E487_5_0.woff') format('woff'), 
+	url('../font/webfonts/28E487_5_0.ttf') format('truetype');
 }
 body {
-  background-color: #ebebea;
-  color: #7c7c7c;
-  margin: 0;
-  font-family: 'ProximaNova-Regular';
+	background-color: #ebebea;
+	color: #7c7c7c;
+	margin: 0;
+	font-family: 'ProximaNova-Regular';
 }
 #patternBG,
 .siteBG {
-  background: url(../img/pattern.jpg);
+	background: url(../img/pattern.jpg);
 }
 header h1 {
-  background: url(../img/chronos.png) no-repeat 50%;
-  height: 62px;
-  width: 220px;
-  text-indent: -9999px;
-  margin: 0 auto;
-  padding-top: 100px;
+	background: url(../img/chronos.png) no-repeat 50%;
+	height: 62px;
+	width: 220px;
+	text-indent: -9999px;
+	margin: 0 auto;
+	padding-top: 100px;
 }
 header h2 {
-  text-align: center;
-  margin: -50px auto 0;
-  text-shadow: 0 1px #fff;
-  font-size: 20px;
+	text-align: center;
+	margin: -50px auto 0;
+	text-shadow: 0 1px #fff;
+	font-size: 20px;
 }
 .client {
-  float: right;
-  margin-top: -140px;
-  margin-right: 40px;
-  height: 32px;
-  width: 207px;
-  border: 1px solid #4c7792;
-  border-radius: 6px;
-  background-color: #5b8faf;
+	float: right;
+	margin-top: -140px;
+	margin-right: 40px;
+	height: 32px;
+	width: 207px;
+	border: 1px solid #4c7792;
+	border-radius: 6px;
+	background-color: #5b8faf;
 }
 .client a {
-  text-decoration: none;
-  display: inline-block;
-  color: #ebebea;
-  width: 49%;
-  padding-top: 6px;
-  padding-bottom: 3px;
-  text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: #ebebea;
+	width: 49%;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	text-align: center;
 }
 .button {
-  -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
-  -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
-  background: -moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
-  background-color: #ededed;
-  -webkit-border-top-left-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  border-top-left-radius: 6px;
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topright: 6px;
-  border-top-right-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  -moz-border-radius-bottomright: 6px;
-  border-bottom-right-radius: 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -moz-border-radius-bottomleft: 6px;
-  border-bottom-left-radius: 6px;
-  text-indent: 0;
-  border: 1px solid #dcdcdc;
-  display: inline-block;
-  color: #777777;
-  font-family: arial;
-  font-size: 15px;
-  font-weight: bold;
-  font-style: normal;
-  height: 50px;
-  line-height: 50px;
-  width: 100px;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 1px 1px 0px #ffffff;
+	-moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background: -moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color: #ededed;
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-bottom-left-radius: 6px;
+	text-indent: 0;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	color: #777777;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	height: 50px;
+	line-height: 50px;
+	width: 100px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px 0px #ffffff;
 }
 .button:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
-  background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
-  background-color: #dfdfdf;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color: #dfdfdf;
 }
 .button:active {
-  position: relative;
-  top: 1px;
+	position: relative;
+	top: 1px;
 }
 #cta {
-  height: 600px;
-  background: url(../img/cta.png) no-repeat center bottom;
+	height: 600px;
+	background: url(../img/cta.png) no-repeat center bottom;
 }
 #cta p {
-  text-align: center;
-  width: 80%;
-  line-height: 26px;
-  margin: 30px auto;
-  font-size: 20px;
+	text-align: center;
+	width: 80%;
+	line-height: 26px;
+	margin: 30px auto;
+	font-size: 20px;
+	text-shadow: 0 1px 0 #fff;
 }
 #cta a {
-  display: block;
-  margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
 h3 {
-  text-align: center;
-  color: #5789a8;
+	text-align: center;
+	color: #5789a8;
 }
-#features h3 {
-  font-size: 24px;
+#features{
+	margin: 0 auto;
+	overflow: hidden;
+	margin-left: 180px;
+}
+#container h3 {
+	font-size: 24px;
 }
 .revCon {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
+	display: inline;
+	float: left;
+	width: 87.91666666666666%;
+	margin: 0 1.0416666666666665%;
 }
 .revCon .icon {
-  display: inline;
-  float: left;
-  width: 14.583333333333334%;
-  margin: 0 1.0416666666666665%;
+	display: inline;
+	float: left;
+	width: 14.583333333333334%;
+	margin: 0 1.0416666666666665%;
 }
 .revCon p {
-  display: inline;
-  float: left;
-  width: 81.25%;
-  margin: 0 1.0416666666666665%;
-  margin-top: 30px;
+	display: inline;
+	float: left;
+	width: 81.25%;
+	margin: 0 1.0416666666666665%;
+	margin-top: 30px;
+	font-size: 20px;
 }
 #calendar {
-  background: url(../img/calendar.png) no-repeat 50% 50%;
-  width: 109px;
-  height: 109px;
+	background: url(../img/calendar.png) no-repeat 50% 50%;
+	width: 109px;
+	height: 109px;
 }
 #user {
-  background: url(../img/user.png) no-repeat 50% 50%;
-  width: 109px;
-  height: 109px;
+	background: url(../img/user.png) no-repeat 50% 50%;
+	width: 109px;
+	height: 109px;
 }
 #bolt {
-  background: url(../img/bolt.png) no-repeat 50% 50%;
-  width: 109px;
-  height: 109px;
+	background: url(../img/bolt.png) no-repeat 50% 50%;
+	width: 109px;
+	height: 109px;
 }
 #phone {
-  background: url(../img/phone.png) no-repeat 50% 50%;
-  width: 109px;
-  height: 109px;
+	background: url(../img/phone.png) no-repeat 50% 50%;
+	width: 109px;
+	height: 109px;
 }
 #reviews {
-  clear: both;
+	clear: both;
 }
 #reviews h3 {
-  font-size: 24px;
+	font-size: 24px;
 }
 #reviews q {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
-  margin-top: 10px;
+	display: inline;
+	float: left;
+	width: 97.91666666666666%;
+	margin: 0 1.0416666666666665%;
+	margin-top: 10px;
 }
 .reviewPic {
-  display: inline;
-  float: left;
-  width: 31.25%;
-  margin: 0 1.0416666666666665%;
+	display: inline;
+	float: left;
+	width: 31.25%;
+	margin: 0 1.0416666666666665%;
 }
 #review1 {
-  background: url(../img/review1.png) no-repeat 50% 50%;
-  height: 162px;
-  width: 162px;
-  margin: 0 auto;
+	background: url(../img/review1.png) no-repeat 50% 50%;
+	height: 162px;
+	width: 162px;
+	margin: 0 auto;
 }
 #review2 {
-  background: url(../img/review2.png) no-repeat 50% 50%;
-  height: 162px;
-  width: 162px;
-  margin: 0 auto;
+	background: url(../img/review2.png) no-repeat 50% 50%;
+	height: 162px;
+	width: 162px;
+	margin: 0 auto;
 }
 #review3 {
-  background: url(../img/review3.png) no-repeat 50% 50%;
-  height: 162px;
-  width: 162px;
-  margin: 0 auto;
+	background: url(../img/review3.png) no-repeat 50% 50%;
+	height: 162px;
+	width: 162px;
+	margin: 0 auto;
+}
+q {
+	text-align: center;
+}
+q:before {
+	font-size: 30px;
+	padding-right: 10px;
+}
+q:after {
+	font-size: 30px;
+	padding-left: 10px;
 }
 #loginForm,
 #regForm {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
+	display: inline;
+	float: left;
+	width: 97.91666666666666%;
+	margin: 0 1.0416666666666665%;
 }
 #loginForm form,
 #regForm form {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
+	display: inline;
+	float: left;
+	width: 97.91666666666666%;
+	margin: 0 1.0416666666666665%;
 }
 #loginForm label,
 #regForm label {
-  display: block;
-  margin: 5px auto;
-  width: 20.4%;
+	display: block;
+	margin: 5px auto;
+	width: 20.4%;
 }
 #loginForm input[type="text"],
 #regForm input[type="text"],
 #loginForm input[type="password"],
 #regForm input[type="password"] {
-  display: block;
-  height: 25px;
-  width: 20%;
-  margin: 0 auto;
+	display: block;
+	height: 25px;
+	width: 20%;
+	margin: 0 auto;
 }
 #loginForm input[type="submit"],
 #regForm input[type="submit"] {
-  display: block;
-  margin: 10px auto;
+	display: block;
+	margin: 10px auto;
 }
-
 #calendarContainer {
-  background-color: #ebebea;
-  width: 90%;
-  margin: 0 auto;
+	background-color: #ebebea;
+	width: 90%;
+	margin: 10px auto;
+	border-color: #DDDDDD;
 }
-
-#dayName {
-  list-style: none;
-  display: block;
-  width: 100%;
-  overflow: hidden;
+.dayName {
+	text-align: center;
+	display: inline;
+	float: left;
+	width: 13.25%;
+	line-height: 50px;
 }
-
-#dayName li {
-  float: left;
-  margin-right: 155px;
-}
-
-.arrow {
-/*  float: left;*/
-  text-decoration: none;
-}
-
 .day {
-  border: 1px solid #474747;
-  display: inline;
-  float: left;
-  width: 13.25%;
-  height: 100px;
-/*  margin: 0 auto;
-*/}
-
-.day-1 {
-  /*background-color: red;*/
+	border: 1px solid #D3D1D1;
+	display: inline;
+	float: left;
+	width: 13.25%;
+	height: 100px;
 }
-
+.day a {
+	text-decoration: none;
+	color: #7c7c7c;
+}
+thead {
+	background-color: #5789a8;
+	color: #EBEBEA;
+	height: 50px;
+	font-size: 22px;
+}
+thead a {
+	text-decoration: none;
+	color: #EBEBEA;
+	margin: auto 10px;
+}
+.event {
+	background-color: #5789a8;
+	margin-bottom: 4px;
+	padding: 2px 0;
+}
+.event a {
+	text-decoration: none;
+	color: #ebebea;
+	margin-left: 3px;
+}
+.holiday {
+	background-color: #78A556;
+	margin-bottom: 4px;
+	color: #ebebea;
+}
+#eventContainer{
+	background-color: #ebebea;
+	width: 50%;
+	margin: 10px auto 0;
+	border: 1px solid #C6C6C6;
+}
+#eventContainer h3 {
+	padding-top: 10px;
+}
+#eventContainer form{
+	width: 90%;
+	margin: 0 auto;
+}
+#eventContainer input, label, textarea {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+#eventContainer input {
+	height: 25px;
+	border: 1px solid #D3D3D3;
+}
+#eventContainer textarea {
+	border: 1px solid #D3D3D3;
+}
+#eventContainer input[type="submit"]{
+	margin: 10px auto;
+	height: 40px;
+}
+#deleteButton, 
+#cancelButton {
+	display: block;
+	margin: 0 auto;
+	margin: 10px auto;
+}
+#editButtons {
+	width: 30%;
+	margin: 0 auto 10px;
+}
 footer {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
-  margin-top: 70px;
-  text-align: center;
+	display: inline;
+	float: left;
+	width: 97.91666666666666%;
+	margin: 0 1.0416666666666665%;
+	margin-top: 70px;
+	text-align: center;
 }
 footer small {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
